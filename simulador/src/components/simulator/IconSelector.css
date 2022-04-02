@@ -1,0 +1,88 @@
+.field {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display:inline-block;
+    margin-top: .5rem;
+    font-weight: 700;
+    font-size: small;
+}
+.field-selection {
+    padding: 10px;
+    padding-top: 0;
+    border: 2px solid #93dff1;
+    border-radius: 6px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.field-selection::-webkit-scrollbar{
+    width:4px;
+}
+.field-selection::-webkit-scrollbar-track{
+    background:#f2f2f2;
+    border-radius:2px;
+}
+.field-selection::-webkit-scrollbar-thumb{
+    background:#29bce1;
+    border-radius:2px;
+}
+.field-selection::-webkit-scrollbar-thumb:hover{
+    background:#29bce1;
+}
+
+.single-icon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 600;
+    font-size: .7em;
+}
+.single-icon:hover{
+    border: 1px solid #29bce1;
+}
+.single-icon.selected{
+    border: 1px solid #29bce1;
+}
+
+.image-responsive {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.nav-link {
+    font-weight: 600;
+    line-height: 20px;
+    color: #666;
+    text-decoration: none;
+    border: 2px solid #93dff1;
+    border-bottom: none;
+    display: block;
+    position: relative;
+    z-index: 2;
+    border-top-right-radius: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+}

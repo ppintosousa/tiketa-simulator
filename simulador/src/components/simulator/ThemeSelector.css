@@ -1,0 +1,22 @@
+.single-theme {
+    width: 90px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+    margin-right: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 600;
+}
+.single-theme:hover{
+    border: 1px solid #29bce1;
+}
+.single-theme.selected{
+    border: 1px solid #29bce1;
+}

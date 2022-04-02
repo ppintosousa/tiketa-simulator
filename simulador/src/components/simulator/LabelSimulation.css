@@ -1,0 +1,180 @@
+.label-reg {
+        border-radius: 25px;
+        border: 1px solid #000;
+        background: white;
+        padding: 20px;
+        width: 240px; /*280*/
+        height: 60px;
+        margin: 0;
+        /*top: 30%;*/
+        position: relative;
+}
+.label-reg-brand {
+        /*border: 2px solid #000;*/
+        transform: rotate(270deg);
+        font-size: 6pt;
+        text-align: center;
+        position: absolute;
+        left: 0%;
+        font-family: TL3;
+
+}
+.label-reg-brand-dir {
+        /*border: 2px solid #000;*/
+        transform: rotate(90deg);
+        font-size: 6pt;
+        text-align: center;
+        position: absolute;
+        right: 0%;
+        font-family: TL3;
+
+}
+.label-reg-l1-sicon {
+        /*border: 2px solid #000;*/
+        width: 85%;
+        height: 100%;
+        /*padding-left: 0.5em;*/
+        text-align: center;
+        margin: 0;
+        font-size: 18pt;
+        position: absolute;
+        bottom: 0%;
+        top: 17%;
+        font-family: Calibri;    
+        display: inline-block;
+        white-space: nowrap;   
+}
+.label-reg-l1-cicon {
+       /*border: 1px solid red;*/
+        width: 70%;
+        height: 100%;
+        padding-left: 0.5em;
+        vertical-align: middle;
+        text-align: center;
+        position: absolute;
+        margin: 0;
+        font-size: 18pt;
+        left: 25%; 
+        top: 18%; 
+        display: inline-block;
+        white-space: nowrap; 
+}
+
+.label-reg-l2-cicon {
+        /*border: 1px solid red;*/
+        width: 70%;
+        padding-left: 0.5em;
+        text-align: center;
+        position: absolute;
+        margin: 0 auto;
+        font-size: 16pt;
+        top: 0;
+        left: 60px;
+        display: inline-block;
+        white-space: nowrap;         
+}
+.label-reg-l2-sicon {
+        /*border: 1px solid red;*/
+        width: 88%;
+        padding-left: 0.5em;
+        text-align: center;
+        position: absolute;
+        margin: 0 auto;
+        font-size: 16pt;
+        top: 0;
+        left: 8%;
+        display: inline-block;
+        white-space: nowrap;         
+}
+.label-reg-l3-cicon {
+        /*border: 1px solid #000;*/
+        width: 70%;
+        padding-left: 0.5em;
+        text-align: center;
+        position: absolute;
+        margin: 0 auto;
+        font-size: 16pt;
+        bottom: 0;
+        left: 60px;
+        display: inline-block;
+        white-space: nowrap; 
+}
+.label-reg-l3-sicon {
+       /* border: 1px solid #000;*/
+        width: 88%;
+        padding-left: 0.5em;
+        text-align: center;
+        position: absolute;
+        margin: 0 auto;
+        font-size: 16pt;
+        bottom: 0;
+        left: 8%;
+        display: inline-block;
+        white-space: nowrap; 
+}
+.iconleft {
+       /*border: 2px solid #000;*/
+        position: absolute;
+        bottom: 2%;
+        left: 6%;
+        object-fit:contain;
+        height: 55px;
+        /*display: none;*/
+}
+.iconright {
+        /*border: 2px solid #000;*/
+         position: absolute;
+         bottom: 2%;
+         right: 5%;
+         object-fit:contain;
+         height: 55px;
+         /*-webkit-transform: scaleX(-1); para espelhar a imagem 
+         transform: scaleX(-1); para espelhar a imagem 
+         display: none;*/
+}
+.card {
+         border: 0px;
+         position: absolute;
+         top: 50%;
+}
+.label-reg-l1-cicon-right {
+         /* border: 1px solid red;*/
+          width: 70%;
+          height: 100%;
+          padding-left: 0.5em;
+          vertical-align: middle;
+          text-align: center;
+          position: absolute;
+          margin: 0;
+          font-size: 18pt;
+          right: 27%; 
+          top: 18%; /*17*/  
+          display: inline-block;
+          white-space: nowrap; 
+}
+.label-reg-l2-cicon-right {
+       /* border: 1px solid red;*/
+        width: 70%;
+        padding-left: 0.5em;
+        text-align: center;
+        position: absolute;
+        margin: 0 auto;
+        font-size: 16pt;
+        top: 0;
+        right: 60px;
+        display: inline-block;
+        white-space: nowrap;         
+}
+.label-reg-l3-cicon-right {
+        /*border: 1px solid #000;*/
+        width: 70%;
+        padding-left: 0.5em;
+        text-align: center;
+        position: absolute;
+        margin: 0 auto;
+        font-size: 16pt;
+        bottom: 0;
+        right: 60px;
+        display: inline-block;
+        white-space: nowrap; 
+}

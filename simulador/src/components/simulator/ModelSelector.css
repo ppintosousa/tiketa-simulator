@@ -1,0 +1,50 @@
+.btSelector{
+    width: 32%;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    background:#ffff;
+}
+.btSelector.selected {
+    color: white;
+    background:#29bce1;
+    border-radius:2px;
+}
+.field-selection {
+    padding: 10px;
+    padding-top: 0;
+    border: 2px solid #93dff1;
+    border-radius: 6px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.field-selection::-webkit-scrollbar{
+    width:4px;
+}
+.field-selection::-webkit-scrollbar-track{
+    background:#f2f2f2;
+    border-radius:2px;
+}
+.field-selection::-webkit-scrollbar-thumb{
+    background:#29bce1;
+    border-radius:2px;
+}
+.field-selection::-webkit-scrollbar-thumb:hover{
+    background:#29bce1;
+}
+.field {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display:inline-block;
+    margin-top: .5rem;
+    font-weight: 700;
+    font-size: small;
+}

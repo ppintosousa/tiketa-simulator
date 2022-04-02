@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/*.nav-item:hover, .nav-item:active  {
+  background-color: #61dafb;
+}*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+  font-family: TL1;
+  src: url(/public/fonts/TL1.ttf);
+}
+@font-face {
+  font-family: TL2;
+  src: url(/public/fonts/TL2.ttf);
+}
+@font-face {
+  font-family: TL3;
+  src: url(/public/fonts/TL3.ttf);
+}
+@font-face {
+  font-family: TL4;
+  src: url(/public/fonts/TL4.ttf);
+}
+@font-face {
+  font-family: TL5;
+  src: url(/public/fonts/TL5.ttf);
+}
+@font-face {
+  font-family: TL6;
+  src: url(/public/fonts/TL6.ttf);
+}
+@font-face {
+  font-family: TL7;
+  src: url(/public/fonts/TL7.ttf);
+}
+@font-face {
+  font-family: TL8;
+  src: url(/public/fonts/TL8.ttf);
+}

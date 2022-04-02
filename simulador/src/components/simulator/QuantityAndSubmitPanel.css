@@ -1,0 +1,59 @@
+.field {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display:inline-block;
+    margin-top: .5rem;
+    font-weight: 700;
+    font-size: small;
+}
+.fieldset {
+    display: block;   
+}
+input[type=number]{
+    background:#fff;
+    background-clip:padding-box;
+    border:2px solid #93dff1;
+    border-radius:6px;
+    font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size:14px;
+    height:40px;
+    line-height:1.42857143;
+    padding:0 9px;
+    vertical-align:baseline;
+    width:100%;
+    box-sizing:border-box;
+    -moz-appearance:textfield;
+}
+.input-text.qty{
+    height:52px;
+    text-align:center;
+    width:52px;
+    
+}
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none; 
+}
+.action {
+    line-height: 2.2rem;
+    background-image: none;
+    background: #fff;
+    border: 2px solid #29bce1;
+    color: #29bce1;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-radius:6px;
+}
+button:focus,button:active,button:hover{
+    background:#29bce1;
+    border:2px solid #29bce1;
+    color:#fff;
+}

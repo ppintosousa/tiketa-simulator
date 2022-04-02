@@ -1,0 +1,165 @@
+.field {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display:inline-block;
+    margin-top: .5rem;
+    font-weight: 700;
+    font-size: small;
+}
+.field-selection {
+    padding: 10px;
+    padding-top: 0;
+    border: 2px solid #93dff1;
+    border-radius: 6px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.field-selection::-webkit-scrollbar{
+    width:4px;
+}
+.field-selection::-webkit-scrollbar-track{
+    background:#f2f2f2;
+    border-radius:2px;
+}
+.field-selection::-webkit-scrollbar-thumb{
+    background:#29bce1;
+    border-radius:2px;
+}
+.field-selection::-webkit-scrollbar-thumb:hover{
+    background:#29bce1;
+}
+.single-color {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition: border .3s;
+    -moz-transition: border .3s;
+    -ms-transition: border .3s;
+    transition: border .3s;
+}
+.single-color.selected, .single-color:hover {
+    border: 1px solid #29bce1;
+}
+.color-add.azul {
+    background-color: rgb(22, 142, 206);
+    background-size: 50%;
+    background-image: url(./img/coloradd/azul.png);
+}
+.color-add.preto-inverted {
+    background-color: rgb(0, 0, 0);
+    background-size: 50%;
+    background-image: url(./img/coloradd/preto-inverted.png);
+}
+.color-add.branco {
+    background-color: rgb(255, 255, 255);
+    background-size: 50%;
+    background-image: url(./img/coloradd/branco.png);
+}
+.color-add.verde {
+    background-color: rgb(105, 192, 108);
+    background-size: 50%;
+    background-image: url(./img/coloradd/verde.png);
+}
+.color-add.rosa {
+    background-color: rgb(237, 112, 166);
+    background-size: 50%;
+    background-image: url(./img/coloradd/roxocl.png);
+}
+.color-add.vermelho {
+    background-color: rgb(241, 38, 51);
+    background-size: 50%;
+    background-image: url(./img/coloradd/vermelho.png);
+}
+.color-add.roxo {
+    background-color: rgb(134, 67, 173);
+    background-size: 50%;
+    background-image: url(./img/coloradd/roxo.png);
+}
+.color-add.laranja {
+    background-color: rgb(243, 100, 33);
+    background-size: 50%;
+    background-image: url(./img/coloradd/laranja.png);
+}
+.color-add.vermelhobk {
+    background-color: rgb(232, 32, 39);
+    background-size: 50%;
+    background-image: url(./img/coloradd/vermelho.png);
+}
+.color-add.amarelo {
+    background-color: rgb(255, 238, 0);
+    background-size: 50%;
+    background-image: url(./img/coloradd/amarelo.png);
+}
+.color-add.cinzacl {
+    background-color: rgb(168, 169, 172);
+    background-size: 50%;
+    background-image: url(./img/coloradd/cinzacl.png);
+}
+.color-add.rosacl {
+    background-color: rgb(246, 172, 195);
+    background-size: 50%;
+    background-image: url(./img/coloradd/cinzacl.png);
+}
+.color-add.rosabk {
+    background-color: rgb(255, 43, 181);
+    background-size: 50%;
+    background-image: url(./img/coloradd/roxocl.png);
+}
+.color-add.azules {
+    background-color: rgb(24, 71, 157);
+    background-size: 50%;
+    background-image: url(./img/coloradd/azules.png);
+}
+.color-add.azulbk {
+    background-color: rgb(0, 119, 178);
+    background-size: 50%;
+    background-image: url(./img/coloradd/azul.png);
+}
+.color-add.azulcl {
+    background-color: rgb(106, 208, 248);
+    background-size: 50%;
+    background-image: url(./img/coloradd/azulcl.png);
+}
+.color-add.verdees {
+    background-color: rgb(17, 148, 65);
+    background-size: 50%;
+    background-image: url(./img/coloradd/verdees.png);
+}
+.color-add.verdebk {
+    background-color: rgb(67, 176, 72);
+    background-size: 50%;
+    background-image: url(./img/coloradd/verde.png);
+}
+.color-add.verdecl {
+    background-color: rgb(127, 194, 65);
+    background-size: 50%;
+    background-image: url(./img/coloradd/verdecl.png);
+}
+.color-add.roxoes-inverted {
+    background-color: rgb(95, 45, 145);
+    background-size: 50%;
+    background-image: url(./img/coloradd/roxoes-inverted.png);
+}
+.color-add.roxo {
+    background-color: rgb(132, 101, 172);
+    background-size: 50%;
+    background-image: url(./img/coloradd/roxo.png);
+}
+.color-add {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.single-color.not-allowed {
+    cursor: not-allowed;
+    pointer-events: none;
+    position: relative;
+    opacity: .5;
+}
